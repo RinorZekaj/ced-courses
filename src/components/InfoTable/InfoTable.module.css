@@ -1,0 +1,59 @@
+.infotable{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    table-layout: fixed;
+    border-spacing: 0;
+    border-collapse: separate !important;
+}
+
+#buttons{
+    width: 70%;
+    margin-left: 15%;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+#buttons > button {
+    width: 30%;
+    height: 35px;
+    background-color: #232d3b;
+    border: 1px solid #232d3b;
+    color: white;
+    cursor: pointer;
+}
+
+button:focus{
+    outline: none;
+}
+
+#tableInfo{
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: white;
+    table-layout: fixed;
+    border-spacing: 0;
+    border-collapse: separate !important;
+    color: black;
+}
+
+.tabletd{
+    width: 25%;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-bottom: 4px solid #f8f8f8;
+}
+
+#buttons > .buttons:focus{
+    background-color: #4bc0c0;
+}
+
+.tableHeader {
+    background-color: #94cef8;
+    padding: 0;
+    color: white;
+}

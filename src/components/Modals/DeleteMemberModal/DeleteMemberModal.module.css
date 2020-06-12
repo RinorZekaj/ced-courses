@@ -1,0 +1,38 @@
+.deleteMember {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+.deleteMember > div{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    /* margin-left: 25%; */
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.deleteMember > h2 {
+    color: white;
+    text-align: center;
+}
+
+.deleteMember > div > button {
+    background-color: #0d4871;
+    width: 40%;
+    height: 35px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: none;
+    color: white;
+}
+
+.deleteMember > div > button:hover{
+    background-color: white;
+    color: #0d4871;
+    font-weight: bold;
+}

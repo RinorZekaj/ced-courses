@@ -1,0 +1,89 @@
+.table {
+    table-layout: fixed;
+    border-collapse: separate !important;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.tableHeaderRow{
+    width: 100%;
+    background-color: #94cef8;
+    color: white;
+}
+
+.tableHeader{
+    width: 20%;
+    text-align: left;
+    padding-left: 25px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-bottom: 4px solid #f8f8f8;
+}
+
+.tableWrapper{
+    border-radius: 5px;
+    padding-bottom: 0;
+}
+
+.groupColumn{
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-bottom: 4px solid #f8f8f8;
+    background-color: #5aade7;
+    color: white;
+}
+
+.archived{
+    border-bottom: 4px solid #f8f8f8;
+    background-color: #5aade7;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.archived > img {
+    height: 35px;
+    margin-left: 6px;
+}
+
+.addMemberCell{
+    width: 20%;
+    text-align: left;
+    border-bottom: 4px solid #f8f8f8;
+    text-align: center;
+}
+
+.addMemberButton{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 8px;
+    padding-left: 8px;
+    text-align: center;
+    border-radius: 4px;
+    border: none;
+    background-color: white;
+    color: #00365c;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.tableData {
+    padding-left: 25px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-bottom: 4px solid #f8f8f8;
+    background-color: white;
+}
+
+.totali {
+    text-align: center;
+    padding-left: 25px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-bottom: 4px solid #f8f8f8;
+    background-color: white;
+}

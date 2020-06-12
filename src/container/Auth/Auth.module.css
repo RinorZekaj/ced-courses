@@ -1,0 +1,86 @@
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: #f8f8f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formWrapper {
+  width: 40%;
+  margin-left: 30%;
+  margin: auto;
+  margin-top: 10%;
+}
+
+.formWrapper > h1 {
+  text-align: center;
+}
+
+.input {
+  height: 35px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  border: 1px solid #d3d3d3;
+  padding-left: 15px;
+  background-color: white;
+  color: black;
+}
+
+.input:focus {
+  border: 1px solid #4b96ca;
+}
+
+.submit {
+  height: 35px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  border: 1px solid #4b96ca;
+  padding-left: 15px;
+  background-color: #4b96ca;
+  color: white;
+}
+
+.switchAuth {
+  border: none;
+  background-color: #f8f8f8;
+  font-weight: bold;
+  cursor: pointer;
+  color: #4b96ca;
+  font-size: 14px;
+}
+
+.error {
+  color: red;
+  padding-left: 15px;
+  margin-bottom: 10px;
+  margin-top: -6px;
+}
+
+@media only screen and (max-width: 600px) {
+  .formWrapper {
+    width: 60%;
+    margin-left: 20%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .formWrapper {
+    width: 50%;
+    margin-left: 25%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+  .formWrapper {
+    width: 40%;
+    margin-left: 30%;
+  }
+}

@@ -1,0 +1,12 @@
+.tableData {
+    width: 25%;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-bottom: 4px solid #f8f8f8;
+    text-align: center;
+}
+
+.tableRow{
+    width: 100%;
+    text-align: center;
+}

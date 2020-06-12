@@ -1,0 +1,136 @@
+/* COURSE CONTAINER */
+
+.container {
+  background-color: #f8f8f8;
+  /* height: 100vh; */
+  min-height: 100vh;
+}  
+
+.title {
+  width: 90%;
+  margin-left: 5%;
+}
+
+.courseContainer {
+  width: 90%;
+  height: 60px;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.addCourseButton {
+  width: 180px;
+  height: 55px;
+  background-color: #4396d7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.addCourseButton:focus {
+  outline: none;
+}
+
+.courseButton {
+  font-size: 16px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-right: 6px;
+  background-color: #dddddd;
+  border: none;
+  border-radius: 17px;
+  color: #868686;
+  align-items: center;
+  text-transform: capitalize;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.courseButton:focus {
+  background-color: #4396d7;
+  outline: none;
+  color: white;
+}
+
+.courseButtons {
+  width: 70%;
+  display: flex;
+  /* border: 1px solid red; */
+  overflow-x: auto;
+}
+
+.courseButtons::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  background-color: #f8f8f8;
+}
+
+.courseButtons::-webkit-scrollbar {
+  height: 7px;
+  background-color: #f8f8f8;
+}
+
+.courseButtons::-webkit-scrollbar-thumb {
+  border-radius: 15px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #757575;
+}
+
+hr {
+  width: 90%;
+}
+
+/* GROUPS CONTAINER */
+
+.groupsContainer {
+  width: 90%;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.addGroupButton {
+  width: 180px;
+  height: 55px;
+  background-color: #00365c;
+  color: white;
+  border: 1px solid #00365c;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 5px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .courseContainer {
+    flex-direction: column;
+    height: auto;
+  }
+  .courseButtons {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}

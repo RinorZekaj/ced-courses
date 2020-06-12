@@ -1,0 +1,50 @@
+.addCourse {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #00365c;
+  color: white;
+}
+
+.addCourse > input {
+  width: 70%;
+  margin-left: 15%;
+  height: 35px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  border: 1px solid #0d4871;
+  padding-left: 15px;
+  background-color: #0d4871;
+  color: white;
+}
+
+.addCourse > input::placeholder {
+  color: rgb(173, 173, 173);
+}
+
+.addCourse > button {
+  background-color: #0d4871;
+  width: 30%;
+  margin-left: 35%;
+  height: 35px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  border: none;
+  color: white;
+  /* font-weight: bold; */
+  cursor: pointer;
+}
+
+.addCourse > button:hover {
+  background-color: white;
+  color: #0d4871;
+  border: 1px solid #0d4871;
+}
+
+.addCourse > button:focus{
+  outline: none;
+}
+
+.addCourse > p{
+  margin-top: 0;
+}
